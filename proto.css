@@ -1,0 +1,60 @@
+body {
+	font-family: 'Raleway';
+
+}
+
+.flex-container {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	height: 25%;
+
+}
+
+.item1 {
+	flex-grow: 4;
+}
+
+.item2 {
+	flex-grow: 2;
+}
+
+.item3 {
+	flex-grow: 2;
+}
+
+.item4 {
+	flex-grow: 1;
+}
+
+header a {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	color: black;
+}
+
+.flex-container1 {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.side1 {
+	flex-grow: 4;
+	background-color: gray;
+	text-align: center;
+	padding: 20px;
+}
+
+.side2 {
+	flex-grow: 5;
+	background-color: #494793;
+	padding: 50px;
+}
+
+.video {
+	float: right;
+}
